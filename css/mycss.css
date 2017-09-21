@@ -1,0 +1,99 @@
+.a {
+    background-color: #2169A3;
+}
+
+.b {
+    color: #1F3542;
+}
+
+.c {
+    color: #213D52;
+}
+
+
+/*.d {
+    color:;
+}
+
+.e {
+    color:;
+}
+
+.f {
+    color:;
+}
+
+.g {
+    color:;
+} */
+
+
+/* prod */
+
+.wrapper {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: column;
+    background-color: #2169A3;
+    padding: 10px 0px 10px 0px;
+    height: 750px;
+}
+
+.header {
+    background: tomato;
+    flex-direction: row;
+    display: flex;
+    flex: auto;
+    flex-grow: 1;
+}
+
+.logo {
+    display: flex;
+    flex-grow: 1;
+}
+
+.nmenu {
+    display: flex;
+    flex-grow: 5;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+.nitem:hover {
+    text-decoration-line: underline;
+    text-decoration-color: #2C8ED9;
+}
+
+.nitem {
+    margin: 10px;
+}
+
+.footer {
+    display: flex;
+    background: lightgreen;
+    flex: auto;
+    flex-grow: 1;
+}
+
+.main {
+    text-align: left;
+    background: deepskyblue;
+    display: flex;
+    flex: 100%;
+    flex-grow: 10;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    background-color:
+}
